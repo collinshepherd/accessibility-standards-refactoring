@@ -1,9 +1,11 @@
+/* Universal Selector */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* All of the types of each element */
 body {
   background-color: #d9dcd6;
 }
@@ -16,6 +18,7 @@ header {
   color: #ffffff;
 }
 
+/* For the unordered list inside of the header */
 header ul {
   list-style-type: none;
   padding-top: 15px;
@@ -25,40 +28,45 @@ header ul {
   font-size: 20px;
 }
 
+/* for the list items within the header element */
 header li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* For all of the h1 elements used */
 h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* For all of the h2 elements used */
 h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/* For all of the h3 elements used */
 h3 {
   margin-bottom: 10px;
   text-align: center;
 }
-
+/* For all of the h4 elements used */
 h4 {
   font-size: 20px;
 }
 
+/* For all the hyperlinks */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Setting font size for all paragraphs */
 p {
   font-size: 16px;
 }
 
-figure {
+/* Background image for the nav is all configured here rather than in the html file */
+nav {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -67,12 +75,14 @@ figure {
   background-position: center;
 }
 
+/* Setting up the section area to be structured correctly to fit in the space provided */
 section {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Setting up the foundation for all of the articles within the structure */
 section article {
   margin-bottom: 20px;
   padding: 50px;
@@ -82,10 +92,12 @@ section article {
   color: #ffffff;
 }
 
+/* Restraining images to a max height within section-article elements */
 section article img {
   max-height: 200px;
 }
 
+/* Setting up to push everything in the aside element to the right side of the page */
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -97,17 +109,20 @@ aside {
   background-color: #2589bd;
 }
 
+/* Setting up articles within aside elements */
 aside article {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* Restraining imagines within the aside element */
 aside img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* Setting up the footer to display correctly on the page */
 footer {
   padding: 30px;
   clear: both;
@@ -116,16 +131,19 @@ footer {
   text-align: center;
 }
 
+/* Class selector used to float text or images to the left */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* Class selector used to float text or images to the right */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* ID selector used to set the color of the 3 letters within a word */
 #seo {
   color: #d9dcd6;
 }
